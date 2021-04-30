@@ -1,7 +1,10 @@
-<selectize></selectize>
+<div style="margin-top: 70px">
+  <selectize></selectize>
 
-<div *ngFor="let item of items$ | filter: filterText">
- <blog-item [id]="item.id" [image]="item.image" [text]="item.title">
-</blog-item>
+  <div *ngFor="let item of items$ | filter: filterText">
+    <blog-item [id]="item.id" [image]="item.image" [text]="item.title">
+    </blog-item>
+  </div>
 </div>
+
 

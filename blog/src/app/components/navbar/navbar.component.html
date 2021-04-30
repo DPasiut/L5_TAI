@@ -1,4 +1,5 @@
-<nav class="navbar navbar-dark bg-dark" style="margin-bottom: 5rem;">
+<nav class="navbar navbar-dark bg-dark"
+     style="width: 100%">
   <div class="navbar-brand">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -7,5 +8,8 @@
     <a class="navbar-brand" [routerLink]="['home']" style="margin-left: 5rem;">Home</a>
     <a class="navbar-brand" [routerLink]="['blog']">Blog</a>
     <a class="navbar-brand" [routerLink]="['contact']">Contact</a>
+    <a class="btn btn-primary" [routerLink]="['login']"
+       style="border:5px darkgrey">Login</a>
   </div>
+
 </nav>
