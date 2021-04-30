@@ -1,0 +1,19 @@
+{
+  "name": "l5_tai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "complex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DPasiut/L5_TAI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DPasiut/L5_TAI/issues"
+  },
+  "homepage": "https://github.com/DPasiut/L5_TAI#readme"
+}
